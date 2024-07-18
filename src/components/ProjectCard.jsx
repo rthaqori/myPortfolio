@@ -11,12 +11,12 @@ const ProjectCard = (props) => {
             <p>{props.description}</p>
           </div>
           <div className="project-card__image-overlay__btn">
-            <Button>
-                <a href={props.githubLink}>Github</a>
-            </Button>
-            <Button>
-                <a href={props.liveLink}>Live Demo</a>
-            </Button>
+            <a href={props.githubLink}>
+              <Button>Github</Button>
+            </a>
+            <a href={props.liveLink}>
+              <Button>Live Demo</Button>
+            </a>
           </div>
         </div>
       </div>

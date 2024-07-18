@@ -3,12 +3,20 @@ import AboutMeAcademicsSection from "../AboutMeAcademicsSection";
 import ProfileImg from "../../assets/hero-img2.png";
 
 const AboutMeSection = () => {
-  const skills = [{ up: "raman", down: "thakuri" },
-    { up: "raman", down: "thakuri" },
-    { up: "raman", down: "thakuri" },
+  const skills = [
+    { up: "Html/CSS", down: "Advanced" },
+    { up: "JavaScript", down: "Intermediate" },
+    { up: "React.js", down: "Intermediate" },
+    { up: "Type Script", down: "Basic" },
   ];
-  const experience = [{ up: "rama", down: "thakuri" }];
-  const education = [{ up: "ram", down: "thakuri" }];
+  const experience = [{ up: "4o4 Error", down: "Page Loading..." }];
+  const education = [
+    { up: "+2 in Science", down: "01/2016 - 12/2017" },
+    {
+      up: "01/2019 - 12/2023",
+      down: "Bachelor's Degree in Information Technology",
+    },
+  ];
 
   const [activeCategory, setActiveCategory] = useState("Skills");
 

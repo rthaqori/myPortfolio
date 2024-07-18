@@ -1,24 +1,25 @@
 import ProjectCard from "../ProjectCard";
 import ProjectOneImage from "../../assets/project1-img.jpg";
 import ProjectTwoImage from "../../assets/project2-img.jpg";
+import ProjectFourImage from "../../assets/AmazonUi.jpg";
 
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "Project 1",
+      title: "Mulit-step Form",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, libero",
+        "Designed and developed a multi-step form UI for selecting subscription plans. Focused on creating a user-friendly, intuitive layout that guided users through each step of the subscription process. Ensured the design was responsive and accessible across all devices. Conducted user testing to gather feedback and made iterative improvements, resulting in a smoother user experience and higher subscription completion rates",
       image: ProjectOneImage,
-      githubLink: "https://www.google.com",
-      liveLink: "https://www.google.com",
+      githubLink: "https://github.com/rthaqori/multi-step-form-main",
+      liveLink: "https://rthaqori.github.io/multi-step-form-main/",
     },
     {
-      title: "Project 2",
+      title: "Product Page",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, libero",
+        "Independently redesigned the UI for an e-commerce product page, enhancing visual appeal and user experience. Focused on a clean layout, intuitive navigation, and responsive design for optimal use across devices. Conducted usability testing to refine the design, leading to increased user engagement and satisfaction.",
       image: ProjectTwoImage,
-      githubLink: "https://www.google.com",
-      liveLink: "https://www.google.com",
+      githubLink: "https://github.com/rthaqori/ecommerce-product-page-main",
+      liveLink: "https://rthaqori.github.io/ecommerce-product-page-main/",
     },
     {
       title: "Project 3",
@@ -29,12 +30,12 @@ const ProjectsSection = () => {
       liveLink: "https://www.google.com",
     },
     {
-      title: "Project 4",
+      title: "Amazon UI",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, libero",
-      image: ProjectTwoImage,
-      githubLink: "https://www.google.com",
-      liveLink: "https://www.google.com",
+        "Independently redesigned Amazon’s product page UI, focusing on a clean, intuitive layout and improved functionality. Implemented responsive design for seamless multi-device use and conducted usability testing to enhance user engagement and satisfaction.",
+      image: ProjectFourImage,
+      githubLink: "https://github.com/rthaqori/Amazon",
+      liveLink: "https://rthaqori.github.io/Amazon/",
     },
   ];
 

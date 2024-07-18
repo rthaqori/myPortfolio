@@ -15,14 +15,12 @@ const IntroSection = () => {
         <h1>Raman Thakuri</h1>
         <h2>Fronted Developer</h2>
         <div className="btn_div">
-          <Button>
-            <a href={Resume} download={Resume}>
-              Download CV
-            </a>
-          </Button>
-          <Button>
-            <a href="https://github.com/rthaqori/myPortfolio">Git Repo</a>
-          </Button>
+          <a href={Resume} download={Resume}>
+            <Button>Download CV</Button>
+          </a>
+          <a href="https://github.com/rthaqori/myPortfolio">
+            <Button>Git Repo</Button>
+          </a>
         </div>
         <div className="links">
           <a
