@@ -21,14 +21,14 @@ const ProjectsSection = () => {
       githubLink: "https://github.com/rthaqori/ecommerce-product-page-main",
       liveLink: "https://rthaqori.github.io/ecommerce-product-page-main/",
     },
-    {
-      title: "Project 3",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, libero",
-      image: ProjectOneImage,
-      githubLink: "https://www.google.com",
-      liveLink: "https://www.google.com",
-    },
+    // {
+    //   title: "Project 3",
+    //   description:
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, libero",
+    //   image: ProjectOneImage,
+    //   githubLink: "https://www.google.com",
+    //   liveLink: "https://www.google.com",
+    // },
     {
       title: "Amazon UI",
       description:
