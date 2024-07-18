@@ -107,11 +107,16 @@ nav {
   .btn_div {
     display: flex;
     column-gap: 1em;
-
+    
     & button:last-child {
       background-color: hsla(0, 0%, 0%, 0.8);
       color: #fff;
       font-weight: 700;
+
+      a{
+        color: #fff;
+        padding: 0.9em 1.4em;
+      }
 
       &:hover {
         background-color: hsla(0, 0%, 0%, 0.9);

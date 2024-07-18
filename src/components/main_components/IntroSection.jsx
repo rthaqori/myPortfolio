@@ -2,6 +2,7 @@ import Button from "../Button";
 import ProfileImg from "../../assets/hero-img.png";
 import Linkden from "../../assets/linkedin-light.svg";
 import Github from "../../assets/github-light.svg";
+import Resume from "../../assets/rthaqori_resume.pdf";
 
 const IntroSection = () => {
   return (
@@ -14,8 +15,14 @@ const IntroSection = () => {
         <h1>Raman Thakuri</h1>
         <h2>Fronted Developer</h2>
         <div className="btn_div">
-          <Button handleClick={() => console.log("hii")}>Download CV</Button>
-          <Button handleClick={() => console.log("hello")}>hello</Button>
+          <Button>
+            <a href={Resume} download={Resume}>
+              Download CV
+            </a>
+          </Button>
+          <Button>
+            <a href="https://github.com/rthaqori/myPortfolio">Git Repo</a>
+          </Button>
         </div>
         <div className="links">
           <a
